@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(224, 38, 38);
+  font-family: "Times New Roman", Times, serif;
+
+}
+/*--------------------------header------------------------------------------------*/
+.img
+{
+  display: inline;
+  margin: 5px;
+  color: white;
+}
+span{
+ position: absolute;
+padding-left: 20px;
+padding-top: 10px;
+
+
+ 
+
+
+
+}
+.navbar {
+  height: 55px;
+  box-shadow: 0 4px 8px 0 rgba(161, 146, 146, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+margin-bottom:40px; 
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+ 
+  float: right;
+  display: block;
+  color: #fff;
+  margin-bottom:20px;
+position: inherit;
+  text-align: center;
+ padding-left: 16px;
+ padding-right: 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  color:rgb(3, 158, 19);
+text-decoration:bold;
+
+}
+.avatar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border: 5px solid rgb(3, 158, 19);
+  float: left;
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+/*--------------------Card---------------------------------------------*/
+.card {
+  border: 1px solid lightgray;
+padding: 10px;
+margin: none;
+  text-align: center;
+ 
+}
+.btnd {
+  background-color: rgb(3, 158, 19);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btnd:hover {
+  background-color: rgb(2, 131, 15);
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.info{
+  color:black;
+  text-align: left;
+  font-size: 18px;
+   
+}
+.train {
+  border-left:2px solid black;
+  width: 550px;
+}
+.education{
+  padding-left: 10px;
+  background-color: black;
+  color: #fff;
+text-align: left;
+margin-left: 10px;
+
+}
